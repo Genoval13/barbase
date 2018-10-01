@@ -1,0 +1,31 @@
+{
+  "name": "Q2-Project",
+  "version": "1.0.0",
+  "description": "This is my quarter 2 project, where I'll be creating a bartender app! You can search for drink recipes or post your own!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Genoval13/Q2-Project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Genoval13/Q2-Project/issues"
+  },
+  "homepage": "https://github.com/Genoval13/Q2-Project#readme",
+  "dependencies": {
+    "bcrypt": "^3.0.1",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "handlebars": "^4.0.12",
+    "knex": "^0.15.2",
+    "method-override": "^3.0.0",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.18.4",
+    "pg": "^7.4.3"
+  }
+}
