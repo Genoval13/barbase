@@ -19,7 +19,7 @@ app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
 
 app.get('/', (_req, res) => {
-    res.render('index');
+    res.render('index', {title: 'Find your inner bartender'});
 })
 
 app.use(users);
