@@ -6,7 +6,7 @@ const bcrypt = require('bcrypt');
 let users = {};
 
 router.get('/users', (_req, res) => {
-    res.render('users/register');
+    res.render('users/register', {title: `Register`});
 });
 
 router.post('/users', (req, res) => {

@@ -1,0 +1,17 @@
+.intro {
+    transform: translate(-500px, 0px)
+}
+
+.ing {
+    transform: translate(-100px)
+}
+
+.dImg {
+    height: 300px;
+    width: 300px;
+    transform: translate(900px, -250px)
+}
+
+.ins {
+    transform: translate(-100px, -240px)
+}

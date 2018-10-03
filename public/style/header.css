@@ -43,15 +43,3 @@ h2 {
 #register {
     transform: translate(500px)
 }
-
-#boozeyCruise {
-    height:50%;
-}
-
-.carousel-inner {
-    height:50%;
-}
-
-.carousel {
-    margin-bottom: 60px;
-}

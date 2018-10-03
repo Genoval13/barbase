@@ -8,22 +8,7 @@
     <% include ./partials/heading.ejs %>
 </head>
 <body>
-    <header>
-        <img class="logo" src="https://tbncdn.freelogodesign.org/d9cd6fbc-b636-46e2-abc6-d5c61b3eb6e1.png?1538496537325" alt="">
-        <h1>Barbase</h1>
-        <h2>The Bartender's Site</h2>
-        <form id="searchBar" action="/drinks/:drinkId" method="GET">
-            <div>
-                <input type="search" id="drinkSearch" name="boozeBar">
-                <button>Find your drink</button>
-            </div>
-        </form>
-        <div class="navButtons">
-            <button id="homeButton">Home</button>
-            <button id="allButton">Browse all drinks</button>
-            <button id="topDrinks">See top drinks</button>
-        </div>
-    </header>
+    <% include ./partials/header.ejs %>
     <div id="boozeyCruise" class="carousel slide" data-ride="carousel">
 
         <ol class="carousel-indicators">

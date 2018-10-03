@@ -5,12 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="/style/header.css">
-    <link rel="stylesheet" href="/style/list.css">
+    <link rel="stylesheet" href="/style/rating.css">
     <% include ../partials/heading.ejs %>
 </head>
 <body>
     <% include ../partials/header.ejs %>
-    <h2 class="intro">Browse Drinks</h2>
+    <h2 class="intro">Drinks by Rating</h2>
     <% drinks.forEach(function(drinks) { %>
         <ul>
            <li><a href="/drinks/<%= drinks.drinkName %>"><%= drinks.drinkName %></a></li> 

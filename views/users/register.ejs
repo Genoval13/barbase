@@ -4,10 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Register</title>
+    <link rel="stylesheet" href="/style/header.css">
+    <link rel="stylesheet" href="/style/register.css">
+    <% include ../partials/heading.ejs %>
 </head>
 <body>
-    <h1>Please register to post your own recipes!</h1>
+    <% include ../partials/header.ejs %>
+    <h2 class="intro">Please register to post your own recipes!</h1>
     <form action="/users" method="POST">
         <div>
             <label for="email">User Email</label>
