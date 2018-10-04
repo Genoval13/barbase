@@ -29,17 +29,21 @@ h2 {
 }
 
 #homeButton {
-    transform: translate(500px)
+    transform: translate(450px)
 }
 
 #allButton {
-    transform: translate(500px)
+    transform: translate(450px)
 }
 
 #topDrinks {
-    transform: translate(500px)
+    transform: translate(450px)
 }
 
 #register {
-    transform: translate(500px)
+    transform: translate(450px)
+}
+
+#new {
+    transform: translate(450px)
 }

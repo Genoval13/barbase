@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/style/header.css">
+    <link rel="stylesheet" href="/style/post.css">
+    <% include ../partials/heading.ejs %>
+</head>
+<body>
+    <% include ../partials/header.ejs %>
+    <h1 class="intro">Add Your Recipe!</h1>
+    <form action="/drinks/new" method="POST">
+        <div>
+            <label for="drinkName">Cocktail Name</label>
+            <input type="text" name="drinkName" required>
+        </div>
+        <div>
+            <label for="glassType">Type of Glass Used</label>
+            <input type="text" name="glassType" required>
+        </div>
+        <div>
+            <label for="img">Enter an Image</label>
+            <input type="text" name="img">
+        </div>
+        <div>
+            <label for="ing1">First Ingredient</label>
+            <input type="text" name="ing1">
+        </div>
+        <div>
+            <label for="amt1">Amount</label>
+            <input type="text" name="amt1">
+        </div>
+        <div>
+            <label for="ing2">Second Ingredient</label>
+            <input type="text" name="ing2">
+        </div>
+         <div>
+            <label for="amt2">Amount</label>
+            <input type="text" name="amt2">
+        </div>
+        <div>
+            <label for="ing3">Third Ingredient</label>
+            <input type="text" name="ing3">
+        </div>
+        <div>
+            <label for="amt3">Amount</label>
+            <input type="text" name="amt3">
+        </div>
+        <div>
+            <label for="ing4">Fourth Ingredient</label>
+            <input type="text" name="ing4">
+        </div>
+        <div>
+            <label for="amt4">Amount</label>
+            <input type="text" name="amt4">
+        </div>
+        <div>
+            <label for="ing5">Fifth Ingredient</label>
+            <input type="text" name="ing5">
+        </div>
+        <div>
+            <label for="amt5">Amount</label>
+            <input type="text" name="amt5">
+        </div>
+        <div>
+            <label for="ing6">Sixth Ingredient</label>
+            <input type="text" name="ing6">
+        </div>
+        <div>
+            <label for="amt6">Amount</label>
+            <input type="text" name="amt6">
+        </div>
+        <div>
+            <label for="ing7">Seventh Ingredient</label>
+            <input type="text" name="ing7">
+        </div>
+        <div>
+            <label for="amt7">Amount</label>
+            <input type="text" name="amt7">
+        </div>
+        <div>
+            <label for="ing8">Eighth Ingredient</label>
+            <input type="text" name="ing8">
+        </div>
+        <div>
+            <label for="amt8">Amount</label>
+            <input type="text" name="amt8">
+        </div>
+        <div>
+            <label for="instructions">Instructions</label>
+            <input type="text" name="instructions">
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
