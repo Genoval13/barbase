@@ -2,11 +2,17 @@
 This is my quarter 2 project, where I'll be creating a bartender app! You'll be able to search for drink recipes or post your own!
 
 To setup the project:
+
 Fork and clone this repo,
+
 cd into the repo from the CLI,
+
 Run npm install,
+
 Start the server by running ``` nodemon server.js ``` on the CLI,
+
 Open a web browser and go to localhost:1337,
+
 View at your leisure
 
 Technologies employed:
