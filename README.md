@@ -26,6 +26,8 @@ Express
 
 Ejs
 
+bcrypt
+
 Bootstrap
 
 Body_parser
