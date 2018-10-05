@@ -32,4 +32,3 @@ Body_parser
 
 Disclaimer: This site is still under construction. Some features have not been fully implemented, and others that look ready don't quite work. There will be future progress to make and refinements to implement, so look forward to what's to come!
 
-<img src="/Users/mac/Q2-Project/Barbase Vid.mov">
