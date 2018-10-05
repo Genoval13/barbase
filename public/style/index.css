@@ -1,57 +1,11 @@
-header {
-    height: 180px;
-    background-color: teal
-}
-
-.logo {
-    height: 100px;
-    width: 100px;
-}
-
-h1 {
-    text-align: center;
-    transform: translate(0, -100px);
-    color: red;
-}
-
-h2 {
-    text-align: center;
-    transform: translate(0, -100px)
-}
-
-#searchBar {
-    transform: translate(560px, -100px)
-}
-
-.navButtons {
-    transform: translate(0, -90px);
-    background-color: limegreen;
-}
-
-#homeButton {
-    transform: translate(500px)
-}
-
-#allButton {
-    transform: translate(500px)
-}
-
-#topDrinks {
-    transform: translate(500px)
-}
-
-#register {
-    transform: translate(500px)
-}
-
 #boozeyCruise {
-    height:50%;
+    height:10%;
 }
 
 .carousel-inner {
-    height:50%;
+    height:10%;
 }
 
 .carousel {
-    margin-bottom: 60px;
+    margin-bottom: 0px; 
 }
