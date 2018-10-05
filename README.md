@@ -17,11 +17,17 @@ View at your leisure
 
 
 Technologies employed:
+
 Postgress Database
+
 Knex
+
 Express
+
 Ejs
+
 Bootstrap
+
 Body_parser
 
 Disclaimer: This site is still under construction. Some features have not been fully implemented, and others that look ready don't quite work. There will be future progress to make and refinements to implement, so look forward to what's to come!
